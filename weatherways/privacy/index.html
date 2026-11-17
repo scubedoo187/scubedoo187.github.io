@@ -30,7 +30,7 @@ footer{margin-top:3em;border-top:1px solid var(--line);padding-top:1em}
 <main>
 <p class="lang"><a href="en/" lang="en" hreflang="en">English</a></p>
 <h1>WeatherWays 개인정보처리방침</h1>
-<p class="meta">최종 수정: 2026-10-26</p>
+<p class="meta">최종 수정: 2026-11-17</p>
 
 <p>WeatherWays(이하 "앱")는 개인 개발자 정영균이 제공하는 모바일 게임입니다. 본 방침은 앱이 수집하는 정보와 그 사용 방식을 설명합니다.</p>
 
@@ -43,7 +43,7 @@ footer{margin-top:3em;border-top:1px solid var(--line);padding-top:1em}
 <tr><td>기기 정보(모델, OS 버전, 언어), 대략적 위치(IP 기반 국가), 앱 상호작용, 진단(크래시)</td><td>Google AdMob, Firebase Analytics, Firebase Crashlytics</td><td>광고 제공, 앱 안정성 분석, 사용 통계</td></tr>
 <tr><td>구매 내역(상품 ID, 구매 토큰)</td><td>Google Play Billing</td><td>인앱 구매 처리 및 복원</td></tr>
 <tr><td>익명 인증 ID(무작위 사용자 ID), 기기 생성 랜덤 닉네임, 도시·난이도별 최고 점수와 판 통계</td><td>Firebase Authentication(익명), Cloud Firestore</td><td>스코어보드(내 순위·상위 기록 표시). 이름·이메일 등 계정 정보는 사용하지 않음</td></tr>
-<tr><td>게임 진행 데이터(점수, 해금 상태, 설정)</td><td>기기 내 저장</td><td>게임 진행 저장. 개발자 서버로 전송되지 않음</td></tr>
+<tr><td>게임 진행 데이터(점수, 해금 상태, 설정)</td><td>기기 내 저장(기기의 Android 백업이 켜져 있으면 사용자 본인의 Google 계정 백업에 포함)</td><td>게임 진행 저장·재설치 시 복원. 개발자 서버로 전송되지 않음</td></tr>
 </tbody>
 </table></div>
 
@@ -68,7 +68,7 @@ footer{margin-top:3em;border-top:1px solid var(--line);padding-top:1em}
 <li>요청을 받은 날부터 30일 이내에 스코어보드 기록(익명 ID·닉네임·점수)을 삭제하고 회신합니다. 별도로 보관하는 데이터는 없습니다. 구매 기록은 Google Play가 보관하며 개발자가 삭제할 수 없습니다.</li>
 </ol>
 <ul>
-<li>게임 진행 데이터는 기기에만 저장되며 앱 삭제 시 함께 삭제됩니다.</li>
+<li>게임 진행 데이터(진행·해금 상태·설정·익명 계정 정보)는 기기에 저장되며, 기기의 Android 백업이 켜져 있으면 사용자 본인의 Google 계정 백업에도 포함되어 앱을 다시 설치하거나 기기를 바꿀 때 복원됩니다. 이 백업은 Google이 관리하며 개발자는 볼 수 없습니다. 원하지 않으면 기기 설정에서 백업을 끄거나 백업 데이터를 삭제할 수 있습니다.</li>
 <li>스코어보드 기록(익명 ID·닉네임·점수)은 Firebase에 보관됩니다. 앱을 삭제하면 익명 ID와의 연결이 끊어지며, 기록 삭제는 아래 연락처로 닉네임과 함께 요청하시면 처리합니다.</li>
 <li>제3자 SDK가 수집한 분석·광고 데이터의 보관은 해당 제공자의 정책을 따릅니다. 삭제 요청은 아래 연락처로 보내주시면 가능한 범위에서 처리합니다.</li>
 </ul>
